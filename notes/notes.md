@@ -68,3 +68,5 @@
 - Function, modules, classes
 
 - Advance : Decorators, Generators, Iteratore, MetaProgarmming, Comprehensions, Context Managers
+
+- Numbers in depth :
