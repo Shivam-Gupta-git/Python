@@ -229,6 +229,73 @@ Example:  text = "Python programming"
 
 > print("Java" in text)       # False
 
+-> List ...................................
+
+- A list is a built-in data type in Python used to store multiple values in a single variable.
+
+- decleration of list
+
+students = ['shubham', 'mohan', 'sohan', 'saurav']
+
+> print(students) // ['shubham', 'mohan', 'sohan', 'saurav']
+
+=> List Slicing
+
+students = ['shubham', 'mohan', 'sohan', 'saurav']
+
+> print(students[:2]) // ['shubham', 'mohan']
+
+> print(students[1:-1]) // ['mohan', 'sohan']
+
+> print(students[1:4]) // ['mohan', 'sohan', 'saurav']
+
+> print(students[::-1]) // ['saurav', 'sohan', 'mohan', 'shubham']
+
+> print(students[-1]) // saurav
+
+> print(students[::2]) // ['shubham', 'sohan']
+
+=> List is Mutable 
+
+Example: 
+students = ['shubham', 'mohan', 'sohan', 'saurav']
+> students[0] = 'Vikash' 
+print(students) // ['Vikash', 'mohan', 'sohan', 'saurav']
+
+=> Exchange Element into the give list
+
+Example : students = ['shubham', 'mohan', 'sohan', 'saurav']
+
+students[1:2] = ['nitin'] 
+
+> print(students) // ['shubham', 'nitin', 'sohan', 'saurav']
+
+students[1:3] = ['sonu', 'ravi']
+
+> print(students) // ['shubham', 'sonu', 'ravi', 'saurav']
+
+=> add element into to the given list
+
+Example: students = ['shubham', 'mohan', 'sohan', 'saurav']
+
+students[1:1]
+
+students[1:1] = ['Ravi', 'anish']
+
+> print(students) // ['shubham', 'Ravi', 'anish', 'mohan', 'sohan', 'saurav']
+
+=> Remove element into the give list
+
+Example : students = ['shubham', 'Ravi', 'anish', 'mohan', 'sohan', 'saurav']
+
+students[1:3] = []
+
+> print(students) // ['shubham', 'mohan', 'sohan', 'saurav']
+
+
+
+
+
 
 
 
