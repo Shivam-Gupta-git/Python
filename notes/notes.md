@@ -69,4 +69,85 @@
 
 - Advance : Decorators, Generators, Iteratore, MetaProgarmming, Comprehensions, Context Managers
 
-- Numbers in depth :
+-> Depth in number data type ---------------------
+
+- random method in python
+- import random after that just call it 
+
+random.random()
+0.08514996672388664 // output
+
+random.randint(1, 10)
+1 // output
+
+random.randint(1, 10)
+8 // output
+
+- random.choice() is used to return a random element from a given list (or any sequence). Each time you call it, it may return a different element from the array.
+
+- Example :
+l1 = ['lemon tea', 'masala tea', 'ginger tea', 'mint tea']
+
+random.choice(l1)
+
+'mint tea' // output 
+
+random.choice(l1)
+
+'lemon tea' //output
+
+- random.shuffle() : It changes the order of elements in the same list every time it is called.
+
+Example: 
+l1 = ['lemon tea', 'masala tea', 'ginger tea', 'mint tea']
+
+random.shuffle(l1) // call
+
+l1 // call
+
+['masala tea', 'ginger tea', 'lemon tea', 'mint tea'] // output
+
+random.shuffle(l1) // call
+
+l1 // call
+
+['lemon tea', 'masala tea', 'ginger tea', 'mint tea']
+
+- from decimal import Decimal : from decimal import Decimal is used to perform high-precision decimal arithmetic in Python. Floating-point numbers (float) can give inaccurate results due to binary representation.
+
+Example (problem with float)
+
+print(0.1 + 0.2)
+
+0.30000000000000004 // output
+
+Using Decimal
+
+from decimal import Decimal
+
+a = Decimal('0.1')
+b = Decimal('0.2')
+
+print(a + b)
+
+0.3 // output
+
+-> Set Data Type ------------------------------
+
+setone = {1, 2, 3, 4}
+
+- setone & {1, 3} // find intersection 
+
+{1, 3} // output because both are common
+
+- setone | {4, 5} // find union
+
+{1, 2, 3, 4, 5} // output
+
+
+
+
+
+
+
+
