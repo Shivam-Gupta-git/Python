@@ -117,11 +117,11 @@ l1 // call
 
 Example (problem with float)
 
-print(0.1 + 0.2)
+> print(0.1 + 0.2)
 
-0.30000000000000004 // output
+>0.30000000000000004 // output
 
-Using Decimal
+- Using Decimal
 
 from decimal import Decimal
 
@@ -130,7 +130,7 @@ b = Decimal('0.2')
 
 print(a + b)
 
-0.3 // output
+> 0.3 // output
 
 -> Set Data Type ------------------------------
 
@@ -138,11 +138,96 @@ setone = {1, 2, 3, 4}
 
 - setone & {1, 3} // find intersection 
 
-{1, 3} // output because both are common
+> {1, 3} // output because both are common
 
 - setone | {4, 5} // find union
 
-{1, 2, 3, 4, 5} // output
+> {1, 2, 3, 4, 5} // output
+
+-> String in python ------------------------------
+chai = 'Masala Chai'
+
+- find firsh character of given string
+
+first_char = chai[0]
+
+> print(first_char) // output is M
+
+-> Slicing :
+Slicing is used to extract a part of a sequence (string, list, tuple, etc.).
+
+=> Syntax
+sequence[start : end : step]
+- start → starting index (inclusive)
+
+- end → ending index (exclusive)
+
+- step → gap between elements
+
+=> Example : 
+text = “Python"
+
+> print(text[0:4])   // Pyth
+
+> print(text[1:5])   // ytho
+
+> print(text[:3])    // Pyt
+
+> print(text[2:])    // thon
+
+> print(text[0:6:2]) // Pto 
+
+> print(text[::-1])  // nohtyP | and it is also usse to Reverse a String using Slicing 
+
+=> Common String Methods :
+
+Example : chai = 'lemon tea'
+
+> print(chai.lower()) // lemon tea
+
+> print(chai.upper()) // LEMON TEA
+
+> print(chai.capitalize()) // Lemon tea
+
+> print(chai.replace('lemon', 'ginger')) // ginger tea
+
+> print(len(chai)) // 9
+
+Example : chai1 = "lemon chai, masala chai, ment chai, ginger chai"
+
+> print(chai1.split(", ")) // ['lemon chai', 'masala chai', 'ment chai', 'ginger chai']
+
+> print(chai1.find('ment chai')) // 25
+
+> print(chai1.count('chai')) // 4
+
+=> note:  {} this is called placeholder and it is used to add variables inside.
+
+Example : 
+> chai_type = 'Masala'
+
+> quantity = 2
+
+> order = "I ordered {} cups of {} chai"
+
+> print(order.format(quantity, chai_type)) // 
+I ordered 2 cups of Masala chai
+
+- join() : join() method is used to convert List into Sreing
+
+Example: 
+
+chai_type = ["masala chai", "ginger chai", "mint chai", "lemon chai", "green chai"]
+
+> print(", ".join(chai_type)) // masala chai, ginger chai, mint chai, lemon chai, green chai
+
+- String Containing : string containing usually means checking whether a string contains a specific character or substring.
+
+Example:  text = "Python programming"
+
+> print("Python" in text)     # True
+
+> print("Java" in text)       # False
 
 
 
