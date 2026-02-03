@@ -292,6 +292,51 @@ students[1:3] = []
 
 > print(students) // ['shubham', 'mohan', 'sohan', 'saurav']
 
+=> Basic Loops in Python.........
+
+students = ['anish', 'saurav', 'aryan', 'om']
+
+for student in students:
+> print(student) // anish saurav aryan om
+
+for student in students:
+> print(student, end'-') // anish-saurav-aryan-om-
+
+if 'shubham' in students:
+> print('shubham is all ready in list') // nothing
+
+=> List Methods...............................
+
+students = ['anish', 'saurav', 'aryan', 'om']
+
+- students.append('shubham')
+> print(students) // ['anish', 'saurav', 'aryan', 'om', 'shubham']
+
+- students.insert(2, 'rohan')
+> print(students) // ['anish', 'saurav', 'rohan', 'aryan', 'om', 'shubham']
+
+- numbers.remove(20)
+> print(numbers) // [10, 13, 18, 15, 16, 22]
+
+> - numbers.pop() // 20
+
+- numbers.clear()
+> - print(numbers) // []
+
+> - numbers.index(1) // 2
+
+> - numbers.count(5) // 1
+
+> - range(10) // range(0, 10)
+
+- square_num = [x ** 2 for x in range(10)]
+> print(square_num) // [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+- cube_num = [y ** 3 for y in range(5)]
+> print(cube_num) // [0, 1, 8, 27, 64]
+
+
+
 
 
 
