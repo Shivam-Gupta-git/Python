@@ -144,7 +144,8 @@ setone = {1, 2, 3, 4}
 
 > {1, 2, 3, 4, 5} // output
 
--> String in python ------------------------------
+String in python ----
+-
 chai = 'Masala Chai'
 
 - find firsh character of given string
@@ -153,7 +154,8 @@ first_char = chai[0]
 
 > print(first_char) // output is M
 
--> Slicing :
+Slicing :
+-
 Slicing is used to extract a part of a sequence (string, list, tuple, etc.).
 
 => Syntax
@@ -179,8 +181,8 @@ text = “Python"
 
 > print(text[::-1])  // nohtyP | and it is also usse to Reverse a String using Slicing 
 
-=> Common String Methods :
-
+Common String Methods :
+-
 Example : chai = 'lemon tea'
 
 > print(chai.lower()) // lemon tea
@@ -221,7 +223,9 @@ chai_type = ["masala chai", "ginger chai", "mint chai", "lemon chai", "green cha
 
 > print(", ".join(chai_type)) // masala chai, ginger chai, mint chai, lemon chai, green chai
 
-- String Containing : string containing usually means checking whether a string contains a specific character or substring.
+String Containing.................
+-
+ string containing usually means checking whether a string contains a specific character or substring.
 
 Example:  text = "Python programming"
 
@@ -229,8 +233,8 @@ Example:  text = "Python programming"
 
 > print("Java" in text)       # False
 
--> List ...................................
-
+List ...................................
+-
 - A list is a built-in data type in Python used to store multiple values in a single variable.
 
 - decleration of list
@@ -239,8 +243,8 @@ students = ['shubham', 'mohan', 'sohan', 'saurav']
 
 > print(students) // ['shubham', 'mohan', 'sohan', 'saurav']
 
-=> List Slicing
-
+List Slicing
+-
 students = ['shubham', 'mohan', 'sohan', 'saurav']
 
 > print(students[:2]) // ['shubham', 'mohan']
@@ -284,7 +288,7 @@ students[1:1] = ['Ravi', 'anish']
 
 > print(students) // ['shubham', 'Ravi', 'anish', 'mohan', 'sohan', 'saurav']
 
-=> Remove element into the give list
+=> How to remove element into the give list
 
 Example : students = ['shubham', 'Ravi', 'anish', 'mohan', 'sohan', 'saurav']
 
@@ -292,8 +296,8 @@ students[1:3] = []
 
 > print(students) // ['shubham', 'mohan', 'sohan', 'saurav']
 
-=> Basic Loops in Python.........
-
+=> Basic Loops in Python
+-
 students = ['anish', 'saurav', 'aryan', 'om']
 
 for student in students:
@@ -305,8 +309,8 @@ for student in students:
 if 'shubham' in students:
 > print('shubham is all ready in list') // nothing
 
-=> List Methods...............................
-
+List Methods
+-
 students = ['anish', 'saurav', 'aryan', 'om']
 
 - students.append('shubham')
@@ -336,9 +340,78 @@ students = ['anish', 'saurav', 'aryan', 'om']
 > print(cube_num) // [0, 1, 8, 27, 64]
 
 
+Dictionary in Python.......................
+-
+=> Dictionary = A dictionary is a data type in Python used to store data in key–value pairs.
 
+methods in dictionary
+-
+- studentDetails = {"Name" : "Shivam Gupta", "age" : 22, "cource" : "Btech"}
 
+> print(studentDetails) // {'Name': 'Shivam Gupta', 'age': 22, 'cource': 'Btech'}
 
+> studentDetails["Name"] // 'Shivam Gupta'
+
+> studentDetails.get('Name') // 'Shivam Gupta'
+
+> studentDetails.get('address') // none (because data not present in to the dictionary)
+
+> studentDetails.keys() // dict_keys(['Name', 'age', 'cource'])
+
+> studentDetails.values() // dict_values(['Shivam Gupta', 23, 'Btech'])
+
+> studentDetails.items() // dict_items([('Name', 'Shivam Gupta'), ('age', 23), ('cource', 'Btech')])
+
+- studentDetails.update({'age': 25})
+> print(studentDetails) // {'Name': 'Shivam Gupta', 'age': 25, 'cource': 'Btech'}
+
+> studentDetails.pop('age') // {'Name': 'Shivam Gupta', 'cource': 'Btech'}
+
+> studentDetails.popitem() // ('cource', 'Btech')
+
+- studentDetails.clear()
+> print(studentDetails) // {}
+
+- newStudentDetails = studentDetails.copy()
+>  print(newStudentDetails) // {'Name': 'Shivam Gupta', 'age': 22, 'cource': 'Btech'}
+
+=> Looping Through Dictionary
+-
+
+for key in student:
+    print(key, student[key])
+
+for key, value in student.items():
+    print(key, value)
+
+=> nested dictionary
+- 
+studentDetails = {
+... 'student1' : {'name': 'shivam kumar', 'age': 21, 'cource': 'Btech'},
+... 'student2' : {'name': 'saurav singh', 'age': 23, 'cource': 'bca'}
+... }
+
+> print(studentDetails) // {'student1': {'name': 'shivam kumar', 'age': 21, 'cource': 'Btech'}, 'student2': {'name': 'saurav singh', 'age': 23, 'cource': 'bca'}}
+
+> print(studentDetails['student1']) // {'name': 'shivam kumar', 'age': 21, 'cource': 'Btech'}
+
+> print(studentDetails['student1']['name']) // shivam kumar
+
+How to create square or cube number dictionary
+-
+squareNum = {x:x ** 2 for x in range(6)}
+> print(squareNum) // {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+cubeNum = {y:y ** 3 for y in range(6)}
+> print(cubeNum) // {0: 0, 1: 1, 2: 8, 3: 27, 4: 64, 5: 125}
+
+-> fromkeys(iterable, value) method
+
+key = ['masala tea', 'ginger tea', 'lemon tea']
+defaultVal = 'delicious'
+
+new_dict = dict.fromkeys(key, defaultVal)
+> print(new_dict) // {'masala tea': 'delicious', 'ginger tea': 'delicious', 'lemon tea': 'delicious'}
 
 
 
