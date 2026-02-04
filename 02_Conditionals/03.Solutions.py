@@ -2,6 +2,10 @@
 
 studentScore = int(input("Please Enter Your Score: "))
 
+if studentScore > 100 :
+  print("Please verify your grade again")
+  exit()
+  
 if studentScore < 50 :
   grade = "F"
 elif studentScore < 60  :
