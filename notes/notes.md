@@ -69,7 +69,7 @@
 
 - Advance : Decorators, Generators, Iteratore, MetaProgarmming, Comprehensions, Context Managers
 
--> Depth in number data type ----
+# Depth in number data type 
 -
 - random method in python
 - import random after that just call it 
@@ -134,7 +134,7 @@ print(a + b)
 
 > 0.3 // output
 
--> Set Data Type ------
+# Set Data Type
 -
 
 setone = {1, 2, 3, 4}
@@ -147,7 +147,7 @@ setone = {1, 2, 3, 4}
 
 > {1, 2, 3, 4, 5} // output
 
-String in python ----
+# String in python
 -
 chai = 'Masala Chai'
 
@@ -226,7 +226,7 @@ chai_type = ["masala chai", "ginger chai", "mint chai", "lemon chai", "green cha
 
 > print(", ".join(chai_type)) // masala chai, ginger chai, mint chai, lemon chai, green chai
 
-String Containing.................
+String Containing......
 -
  string containing usually means checking whether a string contains a specific character or substring.
 
@@ -236,8 +236,8 @@ Example:  text = "Python programming"
 
 > print("Java" in text)       # False
 
-List ...................................
--
+# List 
+
 - A list is a built-in data type in Python used to store multiple values in a single variable.
 
 - decleration of list
@@ -246,7 +246,7 @@ students = ['shubham', 'mohan', 'sohan', 'saurav']
 
 > print(students) // ['shubham', 'mohan', 'sohan', 'saurav']
 
-List Slicing
+List Slicing.......
 -
 students = ['shubham', 'mohan', 'sohan', 'saurav']
 
@@ -299,8 +299,8 @@ students[1:3] = []
 
 > print(students) // ['shubham', 'mohan', 'sohan', 'saurav']
 
-=> Basic Loops in Python
--
+# Basic Loops in Python
+
 students = ['anish', 'saurav', 'aryan', 'om']
 
 for student in students:
@@ -312,7 +312,7 @@ for student in students:
 if 'shubham' in students:
 > print('shubham is all ready in list') // nothing
 
-List Methods
+List Methods.........
 -
 students = ['anish', 'saurav', 'aryan', 'om']
 
@@ -343,12 +343,12 @@ students = ['anish', 'saurav', 'aryan', 'om']
 > print(cube_num) // [0, 1, 8, 27, 64]
 
 
-Dictionary in Python.......................
--
+# Dictionary in Python
+
 => Dictionary = A dictionary is a data type in Python used to store data in key–value pairs.
 
-methods in dictionary
--
+# methods in dictionary
+
 - studentDetails = {"Name" : "Shivam Gupta", "age" : 22, "cource" : "Btech"}
 
 > print(studentDetails) // {'Name': 'Shivam Gupta', 'age': 22, 'cource': 'Btech'}
@@ -387,8 +387,8 @@ for key in student:
 for key, value in student.items():
     print(key, value)
 
-=> nested dictionary
-- 
+# nested dictionary
+
 studentDetails = {
 ... 'student1' : {'name': 'shivam kumar', 'age': 21, 'cource': 'Btech'},
 ... 'student2' : {'name': 'saurav singh', 'age': 23, 'cource': 'bca'}
@@ -400,8 +400,8 @@ studentDetails = {
 
 > print(studentDetails['student1']['name']) // shivam kumar
 
-How to create square or cube number dictionary
--
+# How to create square or cube number dictionary
+
 squareNum = {x:x ** 2 for x in range(6)}
 > print(squareNum) // {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
@@ -416,8 +416,8 @@ defaultVal = 'delicious'
 new_dict = dict.fromkeys(key, defaultVal)
 > print(new_dict) // {'masala tea': 'delicious', 'ginger tea': 'delicious', 'lemon tea': 'delicious'}
 
-Tuple.....
--
+# Tuples
+
 A tuple is a built-in data type used to store multiple values in a single 
 
 - students = ('saurav', 'raman', 'ravi', 'mohit', 'pawan')
@@ -431,6 +431,33 @@ student2 = ('avunash', 'prakash', 'abhishek')
 
 totalStudent = student1 + student2
 > print(totalStudent) // ('saurav', 'raman', 'ravi', 'mohit', 'pawan', 'avunash', 'prakash', 'abhishek')
+
+# Questions On Conditionals
+<details>
+<summary>
+1. Age Group Categorizations
+</summary>
+Classify a person age group : child (< 13), teenager (13 - 19), adult(20 - 59), senior(60+). 
+</details>
+
+<details>
+<summary>
+2. Movie Ticket Pricing
+</summary>
+Movie tickets Prices are based on age: $12 for adult (18 and over), 8$ for children and everyone get a $2 discount on wednessday. 
+</details>
+
+<details>
+<summary>
+3. Grade Calculator
+</summary>
+Assign a latter grade based on student's score: A(90-100), B(80-89), C(70-79), D(60-69), E(50-59), F(40-49)  
+</details>
+
+
+
+
+- Note =>  when we want to change string into number then we can use int(" ")
 
 
 
