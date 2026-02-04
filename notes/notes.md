@@ -69,8 +69,8 @@
 
 - Advance : Decorators, Generators, Iteratore, MetaProgarmming, Comprehensions, Context Managers
 
--> Depth in number data type ---------------------
-
+-> Depth in number data type ----
+-
 - random method in python
 - import random after that just call it 
 
@@ -113,7 +113,9 @@ l1 // call
 
 > ['lemon tea', 'masala tea', 'ginger tea', 'mint tea']
 
-- from decimal import Decimal : from decimal import Decimal is used to perform high-precision decimal arithmetic in Python. Floating-point numbers (float) can give inaccurate results due to binary representation.
+- from decimal 
+
+import Decimal : from decimal import Decimal is used to perform high-precision decimal arithmetic in Python. Floating-point numbers (float) can give inaccurate results due to binary representation.
 
 Example (problem with float)
 
@@ -132,7 +134,8 @@ print(a + b)
 
 > 0.3 // output
 
--> Set Data Type ------------------------------
+-> Set Data Type ------
+-
 
 setone = {1, 2, 3, 4}
 
@@ -412,6 +415,23 @@ defaultVal = 'delicious'
 
 new_dict = dict.fromkeys(key, defaultVal)
 > print(new_dict) // {'masala tea': 'delicious', 'ginger tea': 'delicious', 'lemon tea': 'delicious'}
+
+Tuple.....
+-
+A tuple is a built-in data type used to store multiple values in a single 
+
+- students = ('saurav', 'raman', 'ravi', 'mohit', 'pawan')
+> print(students) // ('saurav', 'raman', 'ravi', 'mohit', 'pawan')
+
+=> Add two tupple 
+
+student1 = ('saurav', 'raman', 'ravi', 'mohit', 'pawan')
+
+student2 = ('avunash', 'prakash', 'abhishek')
+
+totalStudent = student1 + student2
+> print(totalStudent) // ('saurav', 'raman', 'ravi', 'mohit', 'pawan', 'avunash', 'prakash', 'abhishek')
+
 
 
 
