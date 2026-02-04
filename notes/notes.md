@@ -454,6 +454,27 @@ Movie tickets Prices are based on age: $12 for adult (18 and over), 8$ for child
 Assign a latter grade based on student's score: A(90-100), B(80-89), C(70-79), D(60-69), E(50-59), F(40-49)  
 </details>
 
+<details>
+<summary>
+4. Fruit Ripeness Cheaker
+</summary>
+Determine it fruit is ripe, overrip, or unripe based on its color. (eg. Banana: Green - unripe, Yellow - Ripe, Brown - Overripe)  
+</details>
+
+<details>
+<summary>
+5. Weather Activity Suggestions
+</summary>
+Suggest an activity based on weather (eg. sunny - go for a walk, rainy - read a book, snowy - build a snowman) 
+</details>
+
+<details>
+<summary>
+6. Transportation Mode Selection 
+</summary>
+choose a mode of transportation based on a distance (eg. < 3 Km: walk, 3-15 km: Bike, > 15 km: car )
+</details>
+
 
 
 
