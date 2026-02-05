@@ -482,6 +482,13 @@ choose a mode of transportation based on a distance (eg. < 3 Km: walk, 3-15 km: 
 Customize a coffee order: "Small", "Medium", or "Large" with an option for "Extra shot" of espresso.
 </details>
 
+<details>
+<summary>
+8. Password Cheaker
+</summary>
+Check if a password is "week", "medium", "strong". chracter: < 6char (week), < 8 char (medium), < 10 char (strong)  
+</details>
+
 
 
 
