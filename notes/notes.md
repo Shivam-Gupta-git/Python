@@ -475,6 +475,13 @@ Suggest an activity based on weather (eg. sunny - go for a walk, rainy - read a 
 choose a mode of transportation based on a distance (eg. < 3 Km: walk, 3-15 km: Bike, > 15 km: car )
 </details>
 
+<details>
+<summary>
+7. Coffee Customization
+</summary>
+Customize a coffee order: "Small", "Medium", or "Large" with an option for "Extra shot" of espresso.
+</details>
+
 
 
 
