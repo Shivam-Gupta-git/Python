@@ -489,10 +489,95 @@ Customize a coffee order: "Small", "Medium", or "Large" with an option for "Extr
 Check if a password is "week", "medium", "strong". chracter: < 6char (week), < 8 char (medium), < 10 char (strong)  
 </details>
 
-
-
-
 - Note =>  when we want to change string into number then we can use int(" ")
+
+# Questions On Loops :
+
+<details>
+<summary>
+1. Counting Positive Number
+</summary>
+Given a list of an number, count how many are positives.  
+</details>
+
+<details>
+<summary>
+2. Sum of Even Number
+</summary>
+Calculate the sum of even numbers up to a given number n 
+</details>
+
+<details>
+<summary>
+3. Multiplication Table Print
+</summary>
+print the multiplication table for a given number up to 10, but skip the 5th iteration. 
+</details>
+
+<details>
+<summary>
+4. Reverse a String
+</summary>
+Reverse a string using a loop
+</details>
+
+<details>
+<summary>
+5. Find non-repeated character
+</summary>
+give a string, and find non-repeated character
+</details>
+
+<details>
+<summary>
+6. Find first non-repeated character 
+</summary>
+give a string, and find first non-repeated character
+</details>
+
+<details>
+<summary>
+7. Find the factorinal 
+</summary>
+find the factorial of given number using loop 
+</details>
+
+<details>
+<summary>
+8. Find the factorinal 
+</summary>
+find the factorial of given number using while loop 
+</details>
+
+<details>
+<summary>
+9. Validate Input
+</summary>
+keep asking the user for input until they enter a number between 1 and 10
+</details>
+
+<details>
+<summary>
+10. Prime number check
+</summary>
+Take a number from the user and check number is prime or not
+</details>
+
+<details>
+<summary>
+11. List Uniqueness Cheacker
+</summary>
+check if all element in a list are unique. if a duplicate is found, exit the loop and print the duplicate.
+
+- items = ["lemon", "banana", "orange", "apple", "mango"]
+</details>
+
+<details>
+<summary>
+12. Exponential Backoff
+</summary>
+Implement and exponential backoff strategy that double the wait time between retries, strings from 1 second, but stop after 5 retries.
+</details>
 
 
 
