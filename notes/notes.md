@@ -579,9 +579,42 @@ check if all element in a list are unique. if a duplicate is found, exit the loo
 Implement and exponential backoff strategy that double the wait time between retries, strings from 1 second, but stop after 5 retries.
 </details>
 
+# Function :
+- Function : A function is a reusable block of code that performs a specific task. It helps in code reuse, readability, and modularity.
 
+- Defining a Function :
 
+> def greet():
 
+    print("Hello, Python!")
+
+<details>
+<summary>
+1. Basic Function Syntax
+</summary>
+Write a function to calculate and return the square of the number.
+</details>
+
+<details>
+<summary>
+2. Function with multiple parameters
+</summary>
+calculate a function that take two numbers as a parameter and return their sum.
+</details>
+
+<details>
+<summary>
+3. Polymorphism in Function
+</summary>
+write a function multiply that multiples two number, but can also accept and multiply string.
+</details>
+
+<details>
+<summary>
+4. Function return multiple values.
+</summary>
+create a function that return both the area and circumference of a cicle given its radius
+</details>
 
 
 
