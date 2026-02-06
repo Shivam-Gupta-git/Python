@@ -616,6 +616,20 @@ write a function multiply that multiples two number, but can also accept and mul
 create a function that return both the area and circumference of a cicle given its radius
 </details>
 
+<details>
+<summary>
+5. Default Parameter Value
+</summary>
+Write a function that greets a user. if no name is provided, it should greet with a default name.
+</details>
+
+<details>
+<summary>
+6. Lamda Function
+</summary>
+Create a lamda function to compute the cube of a number
+</details>
+
 
 
 
