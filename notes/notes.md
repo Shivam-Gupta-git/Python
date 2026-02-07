@@ -630,6 +630,34 @@ Write a function that greets a user. if no name is provided, it should greet wit
 Create a lamda function to compute the cube of a number
 </details>
 
+<details>
+<summary>
+7. Function with *args
+</summary>
+Write a function that takes variable number of arguments and return their sum 
+</details>
+
+<details>
+<summary>
+8. Function with **Kwargs
+</summary>
+Create a function that accept any number of keyword arguments and print them in the format key:value
+</details>
+
+<details>
+<summary>
+9. Generator Function with Yield
+</summary>
+write a generator function that yield even number up to a specified limit.
+</details>
+
+<details>
+<summary>
+10. Recursive Function
+</summary>
+Create a recursive function to calculate the factorial of a number. 
+</details>
+
 
 
 
