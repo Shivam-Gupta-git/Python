@@ -658,6 +658,55 @@ write a generator function that yield even number up to a specified limit.
 Create a recursive function to calculate the factorial of a number. 
 </details>
 
+# Scopes
+- Local Scope : Variables created inside a function. Only available inside that function.
+
+- Enclosing Scope : Variables in a nested function’s outer function.  inner() can access x from outer().
+
+- Global Scope : Variables created outside all functions. Accessible anywhere in the file.
+
+- Built-in Scope : Predefined Python names. Always available
+
+# Closer
+	1.	Is defined inside another function
+	2.	Remembers variables from its outer (enclosing) function
+	3.	Can use those variables even after the outer function has finished execution
+
+# OOPS
+OOPS (Object-Oriented Programming System) is a programming style based on objects and classes to organize code better, make it reusable, secure, and easy to maintain.
+
+# Core Concepts of OOPS (Very Important)
+
+# Class
+A class in Python is a blueprint or template used to create objects.
+It defines what data (variables) and what behavior (methods) an object will have.
+
+- Class = structure
+- Object = real instance of that structure
+
+<details>
+<summary>
+01. Basic Class and Object
+</summary>
+Create a car class with attributes like brand and models. then create an instance of the class.
+</details>
+
+<details>
+<summary>
+02. Class method and Self
+</summary>
+Add a method to a Car class that display the full name of the car.
+</details>
+
+<details>
+<summary>
+03. Inheritance
+</summary>
+Create a ElectricCar Class that inherits from the Car class and has an additional attribute batterySize
+</details>
+
+
+
 
 
 
