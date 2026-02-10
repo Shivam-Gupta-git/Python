@@ -705,6 +705,27 @@ Add a method to a Car class that display the full name of the car.
 Create a ElectricCar Class that inherits from the Car class and has an additional attribute batterySize
 </details>
 
+<details>
+<summary>
+04. Encapsulation
+</summary>
+modify the Car class to encapsulation the brand attribute, make it private and provide a getter method for it 
+</details>
+
+<details>
+<summary>
+05. Polymorphism
+</summary>
+Demonstrate polymorphish by defining a method fuelType in both Car and ElectricCar classes but with diffrent behaviour.
+</details>
+
+<details>
+<summary>
+06. Class Variables
+</summary>
+Add a class variable to car that keeps track of the number of cars created
+</details>
+
 
 
 
