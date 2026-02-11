@@ -747,6 +747,13 @@ Use a property decorator in the Car class to make the model attribute only.
 Demonstrate the use of Instance() to check if my_tesla is an instance of Car and ElectricCar
 </details>
 
+<details>
+<summary>
+10. Multiple Inheritance
+</summary>
+Create two battery classes Battery and Engine, and let the ElectricCar class inherit from both demonstrating multiple inheritance
+</details>
+
 
 
 
