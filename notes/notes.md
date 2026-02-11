@@ -755,6 +755,24 @@ Create two battery classes Battery and Engine, and let the ElectricCar class inh
 </details>
 
 
+# Learn about Decorators
+- A decorator is a function that modifies or extends the behavior of another function or method without changing its source code.
+
+
+<details>
+<summary>
+01. Timing Function Execution
+</summary>
+Write a decorator that measure the time a function take to execute.
+</details>
+
+<details>
+<summary>
+02. Debugging function call
+</summary>
+Create a function to print the function name and the value of its argeument every time to function call
+</details>
+
 
 
 
