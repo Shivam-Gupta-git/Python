@@ -726,6 +726,27 @@ Demonstrate polymorphish by defining a method fuelType in both Car and ElectricC
 Add a class variable to car that keeps track of the number of cars created
 </details>
 
+<details>
+<summary>
+07. Static Method
+</summary>
+Add astatic method to the Car class that return a general description of a car. 
+</details>
+
+<details>
+<summary>
+08. Property Decorator
+</summary>
+Use a property decorator in the Car class to make the model attribute only.
+</details>
+
+<details>
+<summary>
+09. Class Inheritance and Instance() Function
+</summary>
+Demonstrate the use of Instance() to check if my_tesla is an instance of Car and ElectricCar
+</details>
+
 
 
 
