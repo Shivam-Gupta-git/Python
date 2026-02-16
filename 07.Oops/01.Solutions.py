@@ -1,3 +1,4 @@
+# Example of classes.................
 class Student1 :
   def study(self):
     print("students is study")
