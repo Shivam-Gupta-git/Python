@@ -80,8 +80,9 @@
 # Difference between == and is.....................
 # x = 20
 # y = 30
+# print(x == y) # false
 
-# print( x is y)
+# print( x is y) # false 
 
 # Example of for loop..................................
 # with list......
@@ -99,7 +100,40 @@
 #   print(words) # p y t h o n
 
 # Example of while loop...................
-num = 1
-while num <= 5 :
-  num += 1
-  print(num)  # 2 3 4 5 6
+# num = 1
+# while num <= 5 :
+#   num += 1
+#   print(num)  // 2 3 4 5 6
+
+# Example of indentation...............................
+# for num in range(4):
+#   print("hello")
+
+# Example of how many ways to access dic.......................
+# student = {
+#     "name": "Shivam",
+#     "age": 22,
+#     "course": "BCA",
+#     "marks": 85
+# }
+
+# using square bracket.....
+# print(student["name"])  # Shivam
+# print(student["course"]) # BCA
+
+#using get method.....
+# print(student.get("name")) # Shivam
+# print(student.get("age")) # 22
+
+# # access all keys.....
+# print(student.keys()) # dict_keys(['name', 'age', 'course', 'marks'])
+
+# # access all values.....
+# print(student.values()) # dict_values(['Shivam', 22, 'BCA', 85])
+
+# # Access Key + Value Together
+# print(student.items())  # dict_items([('name', 'Shivam'), ('age', 22), ('course', 'BCA'), ('marks', 85)])
+
+# Access Using Loop (Very Important)
+# for key in student:
+#   print(key, ":", student[key]) 
