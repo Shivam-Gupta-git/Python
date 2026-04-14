@@ -1,4 +1,4 @@
-# 1. Numeric Data Types.......................
+#----- 1. Numeric Data Types -------#
 # i. Int............
 # numbers = 12
 # print(numbers)
@@ -11,8 +11,7 @@
 # numbers = 3 + 4j
 # print(numbers)
 
-# 2. Sequence Data Types...........................
-# i. String...........
+#-------- 2. Sequence Data Types---------#
 # name = "python"
 # print(name)
 
@@ -20,7 +19,7 @@
 # text = "shivam"
 # print(text[0:3])
 
-# Methods of String.................
+#------ Methods of String -------#
 # language = "python"
 # print(language.lower())
 
@@ -34,14 +33,13 @@
 # print(language.strip())
 
 
-# String Containing...................
-
+#------ String Containing --------#
 # name = "Python is a programming language"
 
 # # print("Python" in name) // True
 # # print("Java" in name) // False
 
-# ii. List ............
+#------ ii. List ---------#
 # numbers = [1, 2, 3, 4]
 # print(numbers) 
 
@@ -49,13 +47,13 @@
 # print(numbers[-1])  // 4
 # print(numbers[2]) // 3
 
-# List Slicing......
+#---------- List Slicing ----------#
 # numbers = [1, 5, 9, 2, 7]
 
 # print(numbers[0 : 2])  // [1, 5]
 # print(numbers[1:4]) // [5, 9, 2]
 
-# iii. Ttuple............
+#--------- iii. Ttuple -----------#
 # students = ('saurav', 'raman', 'ravi', 'mohit', 'pawan')
 # print(students)
 
@@ -63,7 +61,7 @@
 # r = range(1, 5)
 # print(list(r)) // [1, 2, 3, 4]
 
-# 3. Mapping Data Type :.......................
+#----- 3. Mapping Data Type : ----------#
 
 # student = {
 #   "name" : "shivam",
@@ -73,18 +71,18 @@
 # print(student)
 # print(student["name"])
 
-# 4. Set Data Types...................
+#------- 4. Set Data Types ----------#
 # numbers = [1, 3, 4, 2, 6, 3]
 # print(frozenset(numbers))
 
-# Difference between == and is.....................
+#-------- Difference between == and is ---------#
 # x = 20
 # y = 30
 # print(x == y) # false
 
 # print( x is y) # false 
 
-# Example of for loop..................................
+#--------- Example of for loop ----------#
 # with list......
 # numbers = [1, 3, 2, 5, 4, 7]
 # for num in numbers:
@@ -99,17 +97,17 @@
 # for words in name:
 #   print(words) # p y t h o n
 
-# Example of while loop...................
+#-------- Example of while loop ----------#
 # num = 1
 # while num <= 5 :
 #   num += 1
 #   print(num)  // 2 3 4 5 6
 
-# Example of indentation...............................
+#--------- Example of indentation ----------#
 # for num in range(4):
 #   print("hello")
 
-# Example of how many ways to access dic.......................
+#--------- Example of how many ways to access dic ----------#
 # student = {
 #     "name": "Shivam",
 #     "age": 22,
@@ -117,23 +115,23 @@
 #     "marks": 85
 # }
 
-# using square bracket.....
+#------- using square bracket ---------#
 # print(student["name"])  # Shivam
 # print(student["course"]) # BCA
 
-#using get method.....
+#----- using get method ---------#
 # print(student.get("name")) # Shivam
 # print(student.get("age")) # 22
 
-# # access all keys.....
+#----- access all keys ---------#
 # print(student.keys()) # dict_keys(['name', 'age', 'course', 'marks'])
 
-# # access all values.....
+#------- access all values --------#
 # print(student.values()) # dict_values(['Shivam', 22, 'BCA', 85])
 
-# # Access Key + Value Together
+#-------- Access Key + Value Together ---------#
 # print(student.items())  # dict_items([('name', 'Shivam'), ('age', 22), ('course', 'BCA'), ('marks', 85)])
 
-# Access Using Loop (Very Important)
+#-------- Access Using Loop (Very Important) --------#
 # for key in student:
 #   print(key, ":", student[key]) 
