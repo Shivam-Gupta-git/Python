@@ -62,7 +62,6 @@
 # print(list(r)) // [1, 2, 3, 4]
 
 #----- 3. Mapping Data Type : ----------#
-
 # student = {
 #   "name" : "shivam",
 #   "age" : 22,
@@ -135,3 +134,18 @@
 #-------- Access Using Loop (Very Important) --------#
 # for key in student:
 #   print(key, ":", student[key]) 
+
+#-------- How can you change string into number --------#
+# strNumber1 = "12345"
+# print(int(strNumber1))
+
+# strNumber2 = "12.44"
+# print(float(strNumber2))
+
+#------- Iterator in Python ---------#
+# numbers = [10, 20, 30, 40]
+# itr = iter(numbers)
+# print(next(itr))
+# print(next(itr))
+# print(next(itr))
+# print(next(itr))
